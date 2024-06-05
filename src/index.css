@@ -1,0 +1,22 @@
+/* @import url('./assets/gilroy/Gilroy-SemiBold.ttf');
+@import url('./assets/gilroy/Gilroy-Medium.ttf'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('./assets/gilroy/Gilroy-SemiBold.ttf') format('ttf'),
+       url('./assets/gilroy/Gilroy-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* .shadow-background{
+  background-image: url('./src/assets/92oIvh8uL8Iyhp89pwF8mxVAFUvabeZBlfAIvykBvMJ60Ub86Z4uX08v6vY68eNsXrlmTS1wqCwg2+MMa1t_0xzmwNOQ1I7avsOFsWnO5MdJ3kPlNV+cpGxidvaz3SIg2GT7+kXtzDiwyJ7pmp5FLb.svg');
+  background-repeat: no-repeat;
+  object-fit: cover;
+  z-index: 10;
+} */
+
+
+
